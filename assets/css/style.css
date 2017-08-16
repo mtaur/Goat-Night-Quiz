@@ -1,0 +1,87 @@
+body {
+	color: white;
+}
+
+h1, #ending {
+	font-size:32px;
+}
+
+h3 {
+	font-size:24px;
+	text-decoration: underline;
+	margin-bottom:10px;
+}
+
+
+.content {
+	vertical-align: center;
+	position: absolute;
+	vertical-align: middle;
+	text-align: center;
+
+	background-color:gray;
+
+	top:5%;
+	right:5%;
+	bottom:5%;
+	left:5%;
+
+	background-image:url("../images/background.jpg");
+}
+
+.endContent {
+	background-image:url("../images/GoatNight.jpg");	
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.inner-content {
+	position:absolute;
+	right:5%;
+	left:5%;
+	top: 10%;
+	bottom:10%;
+	text-align:center;
+}
+
+.container {
+	vertical-align: middle;
+	width:95%;
+	height:95%;
+	margin: 2.5%;
+	background-color:silver;
+}
+
+.not-so-large {
+	width: 60%;
+	margin: 5% 20% 5% 20%;
+}
+
+.div-inline {
+	display:inline-block;
+}
+
+.sol {
+	font-weight: bold;
+	font-size:20px;
+	background: #2152b2;
+}
+
+.wrong {
+	background: #d61939;
+}
+
+#seconds-on-page {
+	font-size:30px;
+	top:3%;
+}
+
+
+
+
+#charImage {
+	max-height:20%;
+	max-width:20%;
+	image-orientation:from-image;
+}
